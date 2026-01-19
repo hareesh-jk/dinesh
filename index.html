@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Sweetie 🤍</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@400;600&family=Sriracha&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="wrapper">
+
+    <div class="content">
+        <!-- LEFT -->
+        <div class="left">
+            <h1 class="happy">Good Morning</h1>
+            <h1 class="birthday">My Sweetie 🤍</h1>
+
+            <div class="date__of__birth">
+                <span>Always With You</span>
+            </div>
+
+            <button id="btn__letter">
+                Click Here My Love 💌
+                <i class="fa-regular fa-envelope"></i>
+            </button>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="right">
+            <div class="box__account">
+                <div class="image">
+                    <img src="./images/sweetie.PNG" alt="Sweetie">
+                </div>
+
+                <div class="name">
+                    <i class="fa-solid fa-heart"></i>
+                    <span>Dear Sweetie</span>
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- LOVE LETTER MODAL -->
+<div class="boxMail">
+    <i class="fa-solid fa-xmark"></i>
+
+    <div class="boxMail-container">
+        <div class="card1">
+            <h3>To My Sweetie</h3>
+        </div>
+
+        <div class="card2">
+            <div class="card2-content">
+                <h3>From My Heart 🤍</h3>
+
+                <p>
+                    Good morning, my sweetie.<br><br>
+
+                    I hope today wraps you in the same warmth and beauty you bring into my life, like gentle sunshine touching everything it meets.<br><br>
+
+                    It’s the second day of your periods sweetie, and I know there will be pain, bleeding, and heaviness in your body. I feel deeply helpless for not being there with you today. Even half an hour with you would mean the world to me. But I respect your words and stay back, even when you need comfort the most. It truly hurts me inside.<br><br>
+
+                    Maybe today I can’t be there, but I promise you this from my heart — in the future, I will never give up. Even if you refuse, even if you try to stop me, I won’t. I can never watch my favourite woman go through her hardest days alone.<br><br>
+
+                    Please don’t ever feel lonely. Remember, Zizou is right there with you, holding you close in spirit. You are stronger than you realise.<br><br>
+
+                    Take care of yourself for me. Eat healthy, drink plenty of water, take rest. If possible, take a warm body wash — it may reduce your stress.<br><br>
+
+                    If you feel alone, ping me anytime. If you want me there, I’ll be there in two hours.<br><br>
+
+                    Sleep tight, sweetie.<br>
+                    It’s me, your venggaaya mandda,<br>
+                    <b>Dinesh 🤍</b>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const btn = document.getElementById("btn__letter");
+    const box = document.querySelector(".boxMail");
+    const close = document.querySelector(".fa-xmark");
+
+    btn.onclick = () => box.classList.add("active");
+    close.onclick = () => box.classList.remove("active");
+</script>
+
+</body>
+</html>
